@@ -22,3 +22,4 @@ steps:
         -t crvecc.azurecr.io/haproxy:$(build.buildNumber) \
         -t crvecc.azurecr.io/haproxy:latest \
         --push \
+        .
